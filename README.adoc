@@ -1,0 +1,25 @@
+mom.vim
+=======
+
+Syntax highlighting for mom, a troff macro package, or as
+link:https://www.schaffter.ca/mom/[mom's homepage] states:
+
+[quote, Peter Schaffter, MOM macros for GNU troff]
+____
+mom is a flexible typesetting and document formatting package that allows
+you to create high-quality Portable Document Format (.pdf) or PostScript
+(.ps) files for viewing and printing.
+____
+
+This script is specialized for mom, although that is a troff macro package,
+this script does only have limited troff highlighting capabilities.
+
+Changes to upstream
+-------------------
+
+This fork actually only puts this into proper vim plugin form and provides
+an ftdetect script for files ending in `.mom`.
+
+The original script can be found at
+http://www.vim.org/scripts/script.php?script_id=1231.
+
